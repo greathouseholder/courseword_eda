@@ -52,7 +52,7 @@ ggsave_temp(
 
 df_h5 <- data.frame(
   Format = c("Только ИИ", "Врач + ИИ"),
-  Coefficient = c(-1.125, -0.519),
+  Coefficient = c(-1.094, -0.562),
   color_group = c("ИИ", "Доктор и ИИ")
 )
 
