@@ -37,3 +37,5 @@ mlogit_data <- mlogit.data(
 )
 
 mlogit_data$provider <- as.factor(mlogit_data$provider)
+
+mlogit_data$waiting_time <- factor(mlogit_data$waiting_time)
