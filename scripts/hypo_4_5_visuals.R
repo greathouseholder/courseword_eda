@@ -2,8 +2,8 @@ library(mlogit)
 library(dplyr)
 library(ggplot2)
 
-source("visuals_temp.R")
-source("reshape_data.R")
+source("scripts/visuals.R")
+source("scripts/reshape_data.R")
 
 model_h4 <- mlogit(
   choice ~ accuracy + accuracy:visited + waiting_time + provider | 0,
